@@ -62,17 +62,4 @@ generate_plot(
     }
 )
 
-# task 3
-
-generate_plot(
-    'task3_datasets/AI_index_db.csv',
-    'Human Development Index - Full.csv',
-    {
-        'title': 'AI Index by HDI Group (1990 Onwards)',
-        'yaxis': 'Average Individuals using the Internet (% of population)',
-        'merge_on': 'Country',
-        'year_filter': 'Year >= 1990',
-        'data_column': 'Individuals using the Internet (% of population)'
-    }
-)
 
